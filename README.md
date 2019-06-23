@@ -14,9 +14,9 @@ Ce répertoire contient le travail effectué dans le cadre du laboratoire d' int
 
 [`utils.py`](utils.py) contient les fonctions utilisée pour le préprocessing et augmentation des données.
 
-environment.yml est le fichier qui permet d'installer les librairies nécéssaires au fonctionnement du modèle.
+['environment.yml'] (environment.yml) est le fichier qui permet d'installer les librairies nécéssaires au fonctionnement du modèle.
 
-behavioral-cloning-model.h5 est le modèle de conduite autonome que nous avons entraînné.
+['behavioral-cloning-model.h5'] (behavioral-cloning-model.h5) est le modèle de conduite autonome que nous avons entraînné.
 
 ## Libraries et dépendances
 
@@ -34,7 +34,7 @@ Afin d'installer les librairies et dépendances:
 
 - Installer Anaconda
 - Ouvrir l'invite de commande
--'conda env create -f environments.yml'
+- 'conda env create -f environments.yml'
 
 ## Lancer la simulation
 
