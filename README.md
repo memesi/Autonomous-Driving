@@ -33,8 +33,8 @@ Voici les librairies et dépendances nécéssaires au fonctionnement du modèle.
 Afin d`installer les librairies et dépendances:
 
 - Installer Anaconda
-- Ouvrir l`invite de commande
--`conda env create -f environments.yml`
+- Ouvrir l'invite de commande
+- `conda env create -f environments.yml`
 
 ## Lancer la simulation
 
