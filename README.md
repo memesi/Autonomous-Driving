@@ -2,7 +2,7 @@
 
 Ce répertoire contient le travail effectué dans le cadre du laboratoire d' intelligence artificielle.
 
-##Description des fichiers
+## Description des fichiers
 
 drive.py est un serveur socketIO qui écoute le port 4567 pour recevoir les évènements du simulateur et y envoyer les commandes de conduite.
 
@@ -20,6 +20,14 @@ Voici les librairies et dépendances nécéssaires au fonctionnement du modèle.
 - openCV, PIL
 - pandas, numpy, matplotlib, base64, io
 - socketio, eventlet
+
+Afin d'installer les dépendances:
+
+- Installer Anaconda
+- Ouvrir l'invite de commande
+- Lancer l'instruction suivantes:
+
+conda env create -f environments.yml
 
 ## Contributeurs
 
