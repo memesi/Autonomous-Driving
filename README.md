@@ -11,7 +11,7 @@ Ensuite, on fait un resizing de manière à ce que les dimensions de l’image r
 
 Dernièrement on passe de coordonées RGB à des coordonées YUV afin de réduire la bande passante des images. 
 
-  ![](./images/architecture.png)
+  ![](./images/architecture.PNG)
 
 Voici l’architecture que nous avons utilisée pour le clonage de comportement. C’est une architecture inspirée de [celle proposée par des chercheurs de NVIDIA pour la simulation de conduite](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf).
 
