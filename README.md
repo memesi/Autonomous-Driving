@@ -2,13 +2,17 @@
 
 Ce répertoire contient le travail effectué dans le cadre du laboratoire d' intelligence artificielle.
 
+## Modèle
+
+
+
 ## Description des fichiers
 
-drive.py est un serveur socketIO qui écoute le port 4567 pour recevoir les évènements du simulateur et y envoyer les commandes de conduite.
+[`drive.py`](drive.py) est un serveur socketIO qui écoute le port 4567 pour recevoir les évènements du simulateur et y envoyer les commandes de conduite.
 
-model.py est le fichier qui crée, entraine et enregistre le modèle, en utilisant des fonctions fournies dans le fichier utils.py.
+[`model.py`](model.py) est le fichier qui crée, entraine et enregistre le modèle, en utilisant des fonctions fournies dans le fichier utils.py.
 
-utils.py contient les fonctions utilisée pour le préprocessing et augmentation des données.
+[`utils.py`](utils.py) contient les fonctions utilisée pour le préprocessing et augmentation des données.
 
 environment.yml est le fichier qui permet d'installer les librairies nécéssaires au fonctionnement du modèle.
 
@@ -35,12 +39,12 @@ Afin d'installer les librairies et dépendances:
 ## Lancer la simulation
 
 1. Cloner ce répertoire : `git clone https://github.com/memesi/Autonomous-Driving`
-2.`cd autonomous-driving`
-3. `python drive.py`
-4. Run the Udacity simulator in the autonomous mode
+2. Changer le répertoire courant : `cd autonomous-driving`
+3. Lancer le serveur : `python drive.py`
+4. Lancer le simulateur Udacity en mode autonome
 
 ## Contributeurs
 
 - Christelle Kabemba 14250
 - Alexandre Lenaerts 13055
-- Steven Garofalo 
+- Steven Garofalo 16260
