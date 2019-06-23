@@ -6,7 +6,6 @@ dependencies:
     - python==3.6.0
     - numpy
     - matplotlib
-    - jupyter
     - opencv
     - pillow
     - scikit-learn
