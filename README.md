@@ -30,14 +30,12 @@ Afin d'installer les librairies et dépendances:
 
 - Installer Anaconda
 - Ouvrir l'invite de commande
-- Lancer l'instruction suivantes:
-
-conda env create -f environments.yml
+-'conda env create -f environments.yml'
 
 ## Lancer la simulation
 
-1. Cloner ce répertoire : `git clone https://github.com/julienkessels/udacity-self-driving-car`
-2.`cd behavioral cloning`
+1. Cloner ce répertoire : `git clone https://github.com/memesi/Autonomous-Driving`
+2.`cd autonomous-driving`
 3. `python drive.py`
 4. Run the Udacity simulator in the autonomous mode
 
